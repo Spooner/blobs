@@ -1,0 +1,23 @@
+PATH
+  remote: ../ashton
+  specs:
+    ashton (0.0.1alpha)
+      gosu (~> 0.7.45)
+      opengl (~> 0.8.0.pre1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chingu (0.9rc8)
+      gosu (>= 0.7.43)
+      gosu (>= 0.7.43)
+    gosu (0.7.45-x86-mingw32)
+    opengl (0.8.0.pre1-x86-mingw32)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  ashton!
+  chingu (~> 0.9rc8)
+  gosu (~> 0.7.45)
