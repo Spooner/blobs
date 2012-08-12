@@ -27,7 +27,7 @@ void main()
     if(distance_from_center < depth)
     {
         gl_FragColor = texture2D(in_Texture, var_TexCoord) * var_Color * 0.8;
-        gl_FragColor.rgb += ripple * 0.2;
+        gl_FragColor.rgb += abs(ripple) * 0.1;
         gl_FragColor.a = ((depth - distance_from_center) / depth) * 0.5 + 0.5;
     }
     else

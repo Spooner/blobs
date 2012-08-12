@@ -11,5 +11,9 @@ module Blobs
 
       super options
     end
+
+    def eats?(other)
+      other.is_a?(Darter) || other.is_a?(Spitter)
+    end
   end
 end

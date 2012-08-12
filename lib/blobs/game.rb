@@ -6,7 +6,7 @@ include Chingu
 
 module Blobs
   module ZOrder
-    BACKGROUND, MOVE_LINE, ENTITY, SELECTED = *0..100
+    BACKGROUND, MOVE_LINE, PROJECTILES, ENTITIES, SELECTED = *0..100
   end
 
   class Game < Window
