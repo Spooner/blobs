@@ -1,5 +1,6 @@
-PATH
-  remote: ../ashton
+GIT
+  remote: git://github.com/Spooner/ashton.git
+  revision: 15e9bc2ff2c0519c179f8bf8f5fd307fed7cae73
   specs:
     ashton (0.0.1alpha)
       gosu (~> 0.7.45)
@@ -11,6 +12,7 @@ GEM
     chingu (0.9rc8)
       gosu (>= 0.7.43)
       gosu (>= 0.7.43)
+    gosu (0.7.45)
     gosu (0.7.45-x86-mingw32)
     opengl (0.8.0.pre1-x86-mingw32)
 

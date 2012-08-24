@@ -5,9 +5,10 @@ gem "chingu", "~> 0.9rc8"
 #gem "chipmunk", "~> 5.3.4.5"
 #gem "texplay", "~> 0.4.3"
 #gem "fidgit", "~> 0.1.10"
-#gem "ashton", "~> 0.0.1alpha"
-gem "ashton", path: "../ashton"
 
+#gem "ashton", "~> 0.0.1alpha"
+#gem "ashton", path: "../ashton"
+gem "ashton", git: "git://github.com/Spooner/ashton.git"
 
 #gem "slop", ">= 2.4.4", "< 3" # Compatibility with what pry needs :(
 #gem 'log4r', '~> 1.1.10'
