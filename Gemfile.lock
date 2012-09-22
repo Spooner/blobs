@@ -14,9 +14,11 @@ GEM
       gosu (>= 0.7.43)
     gosu (0.7.45)
     gosu (0.7.45-x86-mingw32)
+    opengl (0.8.0.pre1)
     opengl (0.8.0.pre1-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
